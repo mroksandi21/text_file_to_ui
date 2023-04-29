@@ -39,8 +39,8 @@
             this.txtYear = new System.Windows.Forms.TextBox();
             this.txtCity = new System.Windows.Forms.TextBox();
             this.txtFaculty = new System.Windows.Forms.TextBox();
-            this.txtRole = new System.Windows.Forms.TextBox();
-            this.txtRoleSpecific = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnChooseFile
@@ -136,27 +136,27 @@
             this.txtFaculty.Size = new System.Drawing.Size(100, 20);
             this.txtFaculty.TabIndex = 10;
             // 
-            // txtRole
+            // textBox5
             // 
-            this.txtRole.Location = new System.Drawing.Point(145, 267);
-            this.txtRole.Name = "txtRole";
-            this.txtRole.Size = new System.Drawing.Size(100, 20);
-            this.txtRole.TabIndex = 11;
+            this.textBox5.Location = new System.Drawing.Point(145, 267);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 11;
             // 
-            // txtRoleSpecific
+            // textBox6
             // 
-            this.txtRoleSpecific.Location = new System.Drawing.Point(145, 310);
-            this.txtRoleSpecific.Name = "txtRoleSpecific";
-            this.txtRoleSpecific.Size = new System.Drawing.Size(100, 20);
-            this.txtRoleSpecific.TabIndex = 12;
+            this.textBox6.Location = new System.Drawing.Point(145, 310);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.TabIndex = 12;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.txtRoleSpecific);
-            this.Controls.Add(this.txtRole);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.txtFaculty);
             this.Controls.Add(this.txtCity);
             this.Controls.Add(this.txtYear);
@@ -189,8 +189,8 @@
         private System.Windows.Forms.TextBox txtYear;
         private System.Windows.Forms.TextBox txtCity;
         private System.Windows.Forms.TextBox txtFaculty;
-        private System.Windows.Forms.TextBox txtRole;
-        private System.Windows.Forms.TextBox txtRoleSpecific;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
 
